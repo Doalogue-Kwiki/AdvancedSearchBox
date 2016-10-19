@@ -25,6 +25,10 @@
 	},
 	"ResourceModules": {
 		"ext.AdvancedSearchBox": {
+			"dependencies" : [
+				"mediawiki.searchSuggest",
+				"mediawiki.Title",
+			],
 			"scripts": [
 				"modules/ext.AdvancedSearchBox.js"        
 			],
