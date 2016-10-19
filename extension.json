@@ -1,0 +1,45 @@
+{
+	"name": "AdvancedSearchBox",
+	"version": "0.1.0",
+	"author": [
+		"[http://kwiki.co.il Kwiki]",
+		"[[mw:user:HagaiAsaban|Hagai Asaban]]",
+		"[[mw:user:Yacohen|Yacohen]]"
+	],
+	"url": "doalogue-kwiki/AdvancedSearchBox",
+	"descriptionmsg": "advanced-search-box-desc",
+	"license-name": "GPL v2",
+	"type": "other",
+	"AutoloadClasses": {
+		"AdvancedSearchBoxHooks": "AdvancedSearchBox.hooks.php"
+	},
+	"Hooks": {
+		"BeforePageDisplay": [
+			"AdvancedSearchBoxHooks::onBeforePageDisplay"
+		]
+	},
+	"MessagesDirs": {
+		"AdvancedSearchBox": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.AdvancedSearchBox": {
+			"scripts": [
+				"modules/ext.AdvancedSearchBox.js"        
+			],
+			"styles": [
+                "modules/ext.AdvancedSearchBox.css"
+			],
+			"templates": {
+				"search.mustache" : "templates/search.mustache"
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "AdvancedSearchBox"
+	},
+	"SpecialPages": {},
+	"manifest_version": 1
+}
