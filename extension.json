@@ -1,6 +1,6 @@
 {
 	"name": "AdvancedSearchBox",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": [
 		"[http://kwiki.co.il Kwiki]",
 		"[[mw:user:HagaiAsaban|Hagai Asaban]]",
@@ -25,9 +25,9 @@
 	},
 	"ResourceModules": {
 		"ext.AdvancedSearchBox": {
-			"dependencies" : [
+			"dependencies": [
 				"mediawiki.searchSuggest",
-				"mediawiki.Title",
+				"mediawiki.Title"
 			],
 			"scripts": [
 				"modules/ext.AdvancedSearchBox.js"        

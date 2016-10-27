@@ -8,7 +8,7 @@
 
 class AdvancedSearchBoxHooks {
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin) {
-		$out->addModules( array( 'ext.AdvancedSearchBox' ) );       
+        $out->addModules( array( "ext.AdvancedSearchBox" ) );       
 		return true;
 	}
 }

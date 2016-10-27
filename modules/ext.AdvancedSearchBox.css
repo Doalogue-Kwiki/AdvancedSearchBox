@@ -1,7 +1,28 @@
-
-
 /* This is used in the search field autocompletion */
 .mw-mnss-srcc {
 	float: right;
+    color: blue !important;
 	font-style: italic;
+}
+
+.mw-mnss-srcc :hover {
+    float: right;
+    color: white !important;
+    font-style: italic;
+}
+
+
+.filterBtn {
+    right: 4px;
+    top: 7px !important;
+    color: #FFFFFF !important;
+    left: 4px;
+    background-color: #40C9B4;
+    border-color: #007095;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
 }
