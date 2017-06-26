@@ -1,17 +1,18 @@
 /* This is used in the search field autocompletion */
+/* @noflip */
 .mw-mnss-srcc {
-	float: right;
+	float: left;
     color: blue !important;
 	font-style: italic;
 }
-
+/* @noflip */
 .mw-mnss-srcc :hover {
-    float: right;
+    float: left;
     color: white !important;
     font-style: italic;
 }
 
-
+/* @noflip */
 .filterBtn {
     right: 4px;
     top: 7px !important;

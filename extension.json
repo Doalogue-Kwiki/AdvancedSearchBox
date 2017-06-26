@@ -34,10 +34,7 @@
 			],
 			"styles": [
                 "modules/ext.AdvancedSearchBox.css"
-			],
-			"templates": {
-				"search.mustache" : "templates/search.mustache"
-			}
+			]
 		}
 	},
 	"ResourceFileModulePaths": {
